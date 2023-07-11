@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+}
+.top, .ntop, .sign, .box, .mid{
+    width: 1100px;
+    margin: 40px auto 0 auto;
+
+}
+.add:hover{
+    box-shadow: 5px 5px 5px rgb(156, 148, 148);
+     transition: 1s;
+}
+.logo {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.add {
+    color: grey;
+    margin-left: 10px;
+    display: flex;
+    border: 1px solid rgb(221, 199, 199);
+    font-weight: 100px;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+.add1{
+margin-right: 70px;
+align-self: center;
+}
+
+.log-in{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.log {
+    font-size: large;
+    text-align: right;
+    color: grey;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ntop {
+    color: grey;
+    display: flex;
+   justify-content: left;
+}
+.sign{
+    display: flex;
+    justify-items: left;
+    padding: 10px;
+    
+}
+.cont {
+    font-size: x-large;
+    color:crimson;
+    display: flex;
+   align-items: center;
+   border-bottom: 1px solid crimson;
+   padding: 10px;
+}
+
+.cont img {
+    border-radius: 50%;
+    background-color:rgb(252, 238, 192);
+}
+.cont1{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.cont1 img {
+    border-radius: 50%;
+    background-color: grey;
+}
+.cont2{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.cont2 img {
+    border-radius: 50%;
+    background-color: grey;
+}
+.imge{
+    margin-right: 20px;
+}
+.box{
+    display: flex;
+    color: gray;
+    
+}
+.box p{
+    padding: 5px 10px;
+}
+.fil{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+.rate{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+.pure{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+.cuis{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 200px;
+}
+.mid{
+    border-color: rgb(202, 235, 224);
+    margin-top: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.para{
+    font-size: xx-large;
+    color: rgb(28, 28, 28);
+    font-weight: 300px;
+    padding: 30px 0px;
+
+}
+.pics{
+display: flex;
+margin-right: 20px;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.img1 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px -1px rgb(83, 71, 71);
+}
+.pics{
+text-align: center;
+}
+.txt{
+    font-size: small;
+    color: rgb(83, 71, 71);
+}
+
+.main{
+    display: flex;
+}
+.img2 img{
+    border-radius: 20px;
+    margin-right: 10px
+}
+
+.delivery{
+    width: 1100px;
+    margin: 50px  auto;
+}
+.head1{
+    font-size: xx-large;
+    font-weight: 400;
+    color:rgb(24, 22, 22)
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.cont-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.cont-item:hover{
+    box-shadow: 0 0 1px 3px rgb(223, 210, 210);
+}
+.item-desc{
+    width: 328px;
+}
+
+.item-name, .item-des, .base{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.money{
+    padding: 10px;
+}
+.item-name{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.item-name .rating{
+    background-color: green;
+    border-radius: 4px;
+    padding: 2px;
+    color: white;
+    font-size: 14px;
+    align-self: center;
+}
+
+.item-img{
+    width: 328px;
+    height: 248px;
+    border-radius: 20px;
+}
+
+.item-img img{
+    width : 328px;
+    height: 248px;
+    border-radius: 20px;
+}
+
+.base{
+    border-top: 1px solid gainsboro;
+    padding-top: 10px;
+
+}
+
+.base .b1{
+    width: 48px;
+    height: 18px;
+    margin-right: 10px;
+
+
+}
+
+.b2{
+    padding: 0;
+    font-size: 12px;
+
+}
+.local{
+    width: 1100px;
+    margin: 40px auto 0px auto;
+}
+.loc{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.d1{
+ padding: 15px;
+ border: 1px solid rgb(196, 184, 184);
+ border-radius: 5px;
+ font-size: larger;
+ color: rgb(58, 52, 52);
+ box-shadow: 1px solid gainsboro;
+ margin-bottom: 10px;
+}
+
+.d1 span{
+float: right;
+}
+
+.las{
+    width: 1100px;
+    margin: 40px auto 0px auto;
+    margin-bottom: 10px solid gray;
+background-color: #F8F8F8;
+}
+.a1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 50px;
+}
+.a12{
+    display: flex;
+}
+.in{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(90, 82, 82);
+    height: 20px;
+    margin-right: 10px;
+}
+.en{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(90, 82, 82);
+    height: 20px;
+}  
+.c1{
+    display: flex;
+    justify-content: space-between;
+}
+.c11{
+    font-size: 14px;
+    color: rgb(65, 58, 58);
+
+}
+.g1{
+    color: black;
+}
+.c1 p{
+    margin-bottom: 6px;
+}
+.quicklinks {
+    display: flex;
+}
+
+.quciklinks a{
+    text-decoration: none;
+}
+
+
+.ico{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+.bob img{
+   margin-top: 15px;
+   display: flex;
+   margin-bottom: 20px;
+    
+}
+.flot{
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(49, 43, 43);
+    margin-bottom: 30px;
+}
